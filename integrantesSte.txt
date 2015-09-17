@@ -1,5 +1,9 @@
 ﻿Álvaro
+<<<<<<< HEAD
 Stephanie Torres
+=======
+Fabián Monsalve
+>>>>>>> c04152d8e88387e7904de7ceb97141828a48d2c7
 Jhohan 
 Sebastian
 Stephanie
