@@ -5,45 +5,15 @@ import java.util.Date;
  */
 public class Post{
 
-    public String getTopic() {
-        return topic;
-    }
-
-    public void setTopic(String topic) {
-        this.topic = topic;
-    }
-
-    public Date getDateCreated() {
-        return dateCreated;
-    }
-
-    public void setDateCreated(Date dateCreated) {
-        this.dateCreated = dateCreated;
-    }
-
-    public Date getLastUpdate() {
-        return lastUpdate;
-    }
-
-    public void setLastUpdate(Date lastUpdate) {
-        this.lastUpdate = lastUpdate;
-    }
-
-    public boolean isAllowed() {
-        return isAllowed;
-    }
-
-    public void setIsAllowed(boolean isAllowed) {
-        this.isAllowed = isAllowed;
-    }
-
-    public ArrayList<File> getFiles() {
-        return files;
-    }
-
-    public void setFiles(ArrayList<File> files) {
-        this.files = files;
-    }
+	public Post(){}
+	
+	public Post(String topic, Date dateCreated, Date lastUpdate, boolean isAllowed, ArrayList<files> files){
+		this.topic = topic;
+		this.dateCreated = dateCreated;
+		this.lastUpdate = lastUpdate;
+		this.isAllowed = isAllowed;
+		this.files = files;
+	}
 
     private String topic;
     private Date dateCreated;
