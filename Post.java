@@ -5,6 +5,7 @@ import java.util.Date;
  */
 public class Post{
 
+<<<<<<< HEAD
     public String getTopic() {
         return topic;
     }
@@ -44,6 +45,17 @@ public class Post{
     public void setFiles(ArrayList<File> files) {
         this.files = files;
     }
+=======
+	public Post(){}
+	
+	public Post(String topic, Date dateCreated, Date lastUpdate, boolean isAllowed, ArrayList<files> files){
+		this.topic = topic;
+		this.dateCreated = dateCreated;
+		this.lastUpdate = lastUpdate;
+		this.isAllowed = isAllowed;
+		this.files = files;
+	}
+>>>>>>> 713582fe08fc1f5e2b556356c5fe2e3a37a9136c
 
     private String topic;
     private Date dateCreated;
