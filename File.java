@@ -20,5 +20,14 @@ public class File
 	Byte[] content;
 	double size;
 	
+	//Métodos o Funciones
+	public void download ()
+	{
+		System.out.println("Soy el método Download");
+	}
 	
+	public void share ()
+	{
+		System.out.println("Soy el método Share");
+	}
 }
