@@ -14,7 +14,21 @@ public class Post{
 		this.isAllowed = isAllowed;
 		this.files = files;
 	}
-
+	
+	public void comment(){
+		//TODO
+		//if the comment has a file, add it to files
+	}
+	
+	public void rate(){
+		//TODO
+	}
+	
+	public void share(){
+		//TODO
+		//Share the new post
+	}
+	
     private String topic;
     private Date dateCreated;
     private Date lastUpdate;
