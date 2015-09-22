@@ -30,4 +30,9 @@ public class File
 	{
 		System.out.println("Soy el método Share");
 	}
+	
+	public void prueba()
+	{
+		
+	}
 }
